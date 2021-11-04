@@ -1,7 +1,7 @@
 name: optimization_battery
-description: A new flutter plugin project.
+description: check  battery optimization  and open battery_optimization setting
 version: 0.0.1
-homepage:
+homepage: https://github.com/Ali1Ammar/optimization_battery
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
