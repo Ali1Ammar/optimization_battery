@@ -28,4 +28,4 @@ OptimizationBattery.openBatteryOptimizationSettings();
 
 #
 ### CREDIT : 
-this plugin is inspired(copying code) from [battery_optimization](https://pub.dev/packages/battery_optimization) but after update to null safety and new android plugin APIs
+this plugin is inspired from [battery_optimization](https://pub.dev/packages/battery_optimization) but with supporting null safety and new android plugin APIs
