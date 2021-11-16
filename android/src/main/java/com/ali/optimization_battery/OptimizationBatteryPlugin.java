@@ -75,6 +75,8 @@ public class OptimizationBatteryPlugin implements FlutterPlugin, MethodCallHandl
     
     Intent intent = new Intent();
     intent.setAction(Settings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS);
+    //ref : https://developer.android.com/about/versions/pie/android-9.0-changes-all#fant-required
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
     mContext.startActivity(intent);
     return true;
   }
