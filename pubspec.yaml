@@ -1,6 +1,6 @@
 name: optimization_battery
 description: check  battery optimization  and open battery_optimization setting
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Ali1Ammar/optimization_battery
 
 environment:
