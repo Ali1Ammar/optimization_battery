@@ -1,3 +1,8 @@
+## 0.0.4
+
+fix bug on android 9 and newers [issues-1](https://github.com/Ali1Ammar/optimization_battery/issues/1)
+format the code
+
 ## 0.0.3
 
 fix bug on android 9 and newers [issues-1](https://github.com/Ali1Ammar/optimization_battery/issues/1)

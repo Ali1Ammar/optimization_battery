@@ -1,6 +1,6 @@
 name: optimization_battery
 description: check  battery optimization  and open battery_optimization setting
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/Ali1Ammar/optimization_battery
 
 environment:
@@ -35,6 +35,10 @@ flutter:
       macos:
         pluginClass: OptimizationBatteryPlugin
       web:
+        pluginClass: OptimizationBatteryPlugin
+      windwos:
+        pluginClass: OptimizationBatteryPlugin
+      linux:
         pluginClass: OptimizationBatteryPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
