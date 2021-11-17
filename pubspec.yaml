@@ -30,6 +30,12 @@ flutter:
       android:
         package: com.ali.optimization_battery
         pluginClass: OptimizationBatteryPlugin
+      ios:
+        pluginClass: OptimizationBatteryPlugin
+      macos:
+        pluginClass: OptimizationBatteryPlugin
+      web:
+        pluginClass: OptimizationBatteryPlugin
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
