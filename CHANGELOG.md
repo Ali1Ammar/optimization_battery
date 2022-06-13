@@ -1,5 +1,9 @@
+## 0.0.6
+fix WidgetsBinding.instance warning
+
 ## 0.0.5
 remove unneeded pluginClass which make bug
+
 ## 0.0.4
 
 format the code

@@ -31,11 +31,11 @@ class BatteryOptimizationsObserverAndroid extends StatefulWidget {
       : super(key: key);
 
   @override
-  _BatteryOptimizationsObserverAndroidState createState() =>
-      _BatteryOptimizationsObserverAndroidState();
+  BatteryOptimizationsObserverAndroidState createState() =>
+      BatteryOptimizationsObserverAndroidState();
 }
 
-class _BatteryOptimizationsObserverAndroidState
+class BatteryOptimizationsObserverAndroidState
     extends State<BatteryOptimizationsObserverAndroid>
     with WidgetsBindingObserver {
   /// isIgnoringBatteryOptimizations
@@ -45,7 +45,7 @@ class _BatteryOptimizationsObserverAndroidState
   void initState() {
     if (Platform.isAndroid) {
       reSetBatteryOptimizations();
-      WidgetsBinding.instance!.addObserver(this);
+      WidgetsBinding.instance.addObserver(this);
     }
 
     super.initState();
