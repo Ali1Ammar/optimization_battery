@@ -61,7 +61,7 @@ class BatteryOptimizationsObserverAndroidState
   /// re load the isIgnoringBatteryOptimizations value and update the widget
   void reSetBatteryOptimizations() {
     OptimizationBattery.isIgnoringBatteryOptimizations().then((value) {
-      if (isIgnoringBatteryOptimizations != value) {
+      if (isIgnoringBatteryOptimizations != value && mounted) {
         setState(() {
           isIgnoringBatteryOptimizations = value;
         });
